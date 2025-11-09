@@ -6,8 +6,8 @@ A full-stack web application that monitors and displays *real-time device status
 
 ## 🧩 Overview
 
-This project dynamically tracks whether a device is *online* or *offline* based on its latest reading timestamp in the database.  
-If the device has no record or its last update is older than 2 minutes, it is marked as *offline, otherwise **online*.
+This project dynamically tracks whether a device is online or offline based on its latest reading timestamp in the database.  
+If the device has no record or its last update is older than 2 minutes, it is marked as offline, otherwise online.
 
 It provides:
 - REST API built with Flask + PostgreSQL
