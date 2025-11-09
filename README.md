@@ -33,33 +33,6 @@ It provides:
 
 ---
 
-## 📁 Project Structure
-
-Dynamic-Device-Status/
-│
-├── backend/
-│ ├── app.py
-│ ├── db/
-│ │ ├── connection.py
-│ │ └── query.sql
-│ ├── routes/
-│ │ ├── companies.py
-│ │ └── devices.py
-│ ├── utils/
-│ │ └── status_checker.py
-│ ├── .env
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-│
-├── .gitignore
-└── README.md
-
----
-
 ## ⚙ Setup Instructions
 
 ### 1️ Clone the Repository
