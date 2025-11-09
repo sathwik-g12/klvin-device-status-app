@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Device Status Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Device Status Dashboard</h1>
+
+        <div class="controls">
+            <select id="companySelect"></select>
+
+            <input type="text" id="searchInput" placeholder="Search device...">
+
+            <select id="sortSelect">
+                <option value="default">Sort: Default</option>
+                <option value="online">Sort: Online First</option>
+                <option value="alpha">Sort: A to Z</option>
+            </select>
+
+            <!-- DARK MODE BUTTON -->
+            <button id="themeToggle" title="Toggle Theme">
+                <i id="themeIcon" class="fa-regular fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div id="devicesContainer" class="device-grid"></div>
+    </main>
+
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
